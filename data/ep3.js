@@ -1,0 +1,36 @@
+// replacements for pearls that overlapped card content
+(function(){const R={
+"svt":{1:"Diving reflex = vagal stimulation; never use eyeball pressure or carotid massage in children"},
+"lqts":{1:"Hypocalcemia, hypokalemia, hypomagnesemia also prolong QT – correct before labelling congenital"},
+"arf":{2:"Benzathine penicillin dose: 600,000 U if <27 kg, 1.2 million U if ≥27 kg"},
+"hbvmother":{1:"HBsAg-positive carrier mothers should not be denied breastfeeding even if nipples are not cracked"},
+"obesity":{1:"Exercise target: ≥60 min/day moderate-vigorous; limit sugar-sweetened drinks (single most effective change)"},
+"hypothyroid":{2:"Transient neonatal hypothyroidism: maternal blocking antibodies or iodine exposure (povidone)"},
+"fap":{0:"Pain that is continuous, wakes from sleep or is away from umbilicus is less likely functional"},
+"febrileconv":{0:"Roseola (HHV-6) is a classic trigger of febrile seizures"},
+"sma":{0:"SMA is the commonest genetic cause of infant death"},
+"tbi":{2:"Signs of basal skull fracture are a contraindication to NG tube (use orogastric)"},
+"meningococcemia":{2:"Close contacts = household, daycare, mouth-to-mouth; healthcare workers only if intubated without mask"},
+"paracetamol":{2:"Pediatric liquid single ingestion <150 mg/kg in a child <6 y rarely needs treatment"},
+"down":{2:"Celiac, hypothyroidism, diabetes & alopecia are more common (autoimmune tendency)"},
+"aki":{2:"Hyperkalemia ECG sequence: peaked T → prolonged PR → loss of P → wide QRS → sine wave → VF"},
+"puberty":{1:"Bone age advanced in precocious puberty → reduced final height if untreated"},
+"rickets":{0:"Hypocalcemic rickets in infancy: stridor (laryngospasm) & seizures can be the first sign"},
+"jaundiceolder":{2:"Hepatitis B: HBsAg + anti-HBc IgM = acute; HBsAg >6 months = chronic"},
+"gerd":{0:"Sandifer syndrome (neck tilting) is often misdiagnosed as seizure or torticollis"},
+"cholestasis":{0:"Biliary atresia: commonest cause of neonatal cholestasis & of liver transplant in children",2:"After Kasai, jaundice clearance by 3 months predicts native liver survival"},
+"hirschsprung":{2:"Short-segment disease can present later in childhood with chronic constipation & FTT"},
+"itp":{0:"Evans syndrome: ITP + AIHA (DAT positive) – suggests immune dysregulation"},
+"rta":{0:"Growth failure from RTA is reversible – catch-up growth occurs once acidosis is corrected"},
+"vur":{2:"Primary VUR is due to short intravesical ureter; secondary to high bladder pressure (PUV, neurogenic bladder)"},
+"covidmother":{1:"Maternal COVID increases preterm birth risk"},
+"headache":{0:"Occipital headache in a child is a red flag (posterior fossa lesion)"},
+"stroke":{2:"Moyamoya: 'puff of smoke' on angiography; associated with SCD, Down, NF1"},
+"neurocutaneous":{2:"NF1 children need annual BP measurement (renal artery stenosis, pheochromocytoma)"},
+"jia":{1:"RF-positive polyarticular JIA behaves like adult RA (worst joint prognosis)"},
+"reactivearthritis":{0:"Reactive arthritis may be accompanied by sterile urethritis even after GI infection"},
+"adem":{2:"MOG-antibody positive children may have recurrent optic neuritis"},
+"measles":{1:"Measles causes immune suppression for months → secondary infections & TB reactivation"}
+};
+for(const id in R){for(const i in R[id]){if(window.EP[id])window.EP[id][+i]=R[id][i];}}
+})();

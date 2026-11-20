@@ -1,0 +1,65 @@
+// Metabolic / Endocrine
+window.D=(window.D||[]).concat([
+{id:"galactosemia",name:"Galactosemia",sys:"Metabolic",src:"Study lobby + Previous OSCE 2013, 2016, 2017",
+pearl:"Repeated: lab interpretation – neonate after milk feeds with vomiting, jaundice, hepatomegaly, E. coli sepsis, cataract; urine reducing substances + but glucose dipstick negative.",
+ddx:["Neonatal sepsis","Other IEM: tyrosinemia, hereditary fructose intolerance, organic acidemia","Neonatal hepatitis, biliary atresia","Hypothyroidism","Hemolysis"],
+inv:["Urine reducing substances positive (Clinitest) with negative glucose oxidase","GALT enzyme activity in RBCs (false negative after transfusion)","Galactose-1-phosphate level","LFT, bilirubin (conjugated + unconjugated), coagulation","Glucose, blood gas (metabolic acidosis), renal tubular (Fanconi)","Blood culture (E. coli)","Slit-lamp exam (cataract)","Genetic testing; newborn screening"],
+mgmt:["Stop lactose immediately: soy-based / lactose-free formula (no breastfeeding)","Treat sepsis (E. coli) & coagulopathy, vitamin K","Lifelong galactose-restricted diet","Calcium + vitamin D supplement","Follow-up: Gal-1-P, development, speech, ovarian function (girls), eyes","Genetic counselling"],
+comp:["E. coli sepsis","Liver failure, cirrhosis","Cataract","Intellectual disability, speech dyspraxia, tremor","Primary ovarian insufficiency","Osteopenia"]},
+
+{id:"propionic",name:"Propionic Acidemia (Organic Acidemia)",sys:"Metabolic",src:"Study lobby + Previous OSCE 2017 (breaking bad news)",
+pearl:"Breaking bad news of a metabolic diagnosis. Neonate: poor feeding, vomiting, lethargy, high anion gap metabolic acidosis, ketosis, hyperammonemia, neutropenia.",
+ddx:["Methylmalonic / isovaleric acidemia","MSUD","Urea cycle defect","Sepsis","DKA (older child)","Mitochondrial disorders"],
+inv:["Blood gas: high anion gap metabolic acidosis","Ammonia ↑, lactate, ketones (urine ketones in neonate = red flag)","Glucose (hypo or hyper)","CBC: neutropenia, thrombocytopenia","Plasma acylcarnitine: C3 ↑","Urine organic acids: 3-OH propionate, methylcitrate","Amino acids: glycine ↑; genetic testing (PCCA/PCCB)"],
+mgmt:["Acute: stop protein, high-calorie IV D10 + lipid, insulin if needed","Correct acidosis; ammonia scavengers, carglumic acid","L-carnitine IV","Hemodialysis if severe hyperammonemia/acidosis","Long term: protein-restricted diet + special formula, carnitine, metronidazole cycles (gut propionate)","Sick-day emergency letter","Liver transplantation option","SPIKES for breaking news; genetic counselling (AR)"],
+comp:["Metabolic decompensation, coma, death","Cardiomyopathy, long QT","Pancreatitis","Developmental delay, basal ganglia stroke","Bone marrow suppression, recurrent infections"]},
+
+{id:"shortstature",name:"Short Stature",sys:"Endocrine",src:"Study lobby + Previous OSCE 2012–2020 (most repeated)",
+pearl:"Most repeated station across years (history, exam, discussion, plotting). Height <−2 SD or <3rd centile, crossing centiles, growth velocity low, below mid-parental height.",
+ddx:["Familial short stature (normal BA, normal velocity)","Constitutional delay of growth & puberty (delayed BA, family hx late puberty)","Endocrine: GH deficiency, hypothyroidism, Cushing, poorly controlled DM","Chronic disease: celiac, IBD, CKD, CF, heart disease, malnutrition","Genetic: Turner (girls!), Noonan, Down, Prader-Willi, Russell-Silver","Skeletal dysplasia (disproportionate: achondroplasia)","SGA without catch-up","Psychosocial deprivation, steroids"],
+inv:["Accurate measurement, plot height/weight/HC; mid-parental height; growth velocity","Body proportions (arm span, upper:lower segment)","Bone age (left hand X-ray)","CBC, ESR, CMP, renal function","TSH, free T4","Celiac screen (tTG-IgA + total IgA)","IGF-1, IGFBP-3 → GH stimulation tests","Karyotype in all short girls (Turner)","Urinalysis, VBG (RTA); skeletal survey if disproportionate","MRI pituitary if GHD"],
+mgmt:["Treat underlying cause (gluten-free diet, thyroxine, nutrition)","Familial / constitutional: reassurance & monitoring; low-dose testosterone/estrogen for CDGP if distressed","GH therapy: GHD, Turner, Prader-Willi, SGA, CKD, Noonan, SHOX, ISS","Psychological support","Refer endocrinology"],
+comp:["Psychosocial impact, low self-esteem","Missed serious disease (Turner, brain tumour, celiac)","GH therapy SE: SCFE, pseudotumor cerebri, scoliosis progression, glucose intolerance"]},
+
+{id:"obesity",name:"Childhood Obesity",sys:"Endocrine",src:"Study lobby + Previous OSCE 2018",
+pearl:"Discussion of obesity with short stature: exogenous obesity = tall; obese + short = endocrine/genetic cause.",
+ddx:["Exogenous (nutritional) obesity – tall, normal BA","Hypothyroidism","Cushing syndrome / steroids","GH deficiency","Genetic: Prader-Willi, Bardet-Biedl, MC4R, leptin deficiency","Hypothalamic obesity (post craniopharyngioma)","Drugs: antipsychotics, valproate"],
+inv:["BMI ≥95th centile (obese), ≥85th (overweight); plot height","BP (correct cuff)","Fasting lipids, HbA1c / fasting glucose / OGTT","ALT (NAFLD)","TSH; cortisol only if signs (striae, short, HTN)","Sleep study if snoring; genetic tests if early onset + hyperphagia"],
+mgmt:["Family-based behavioural lifestyle program","Diet: reduce sugary drinks, portion control, regular meals","Physical activity ≥60 min/day, screen time <2 h","Sleep hygiene","Treat comorbidities (HTN, dyslipidemia, prediabetes)","Pharmacotherapy ≥12 y: GLP-1 agonists (liraglutide, semaglutide), orlistat, metformin (insulin resistance)","Bariatric surgery for severe adolescent obesity"],
+comp:["T2DM, insulin resistance, acanthosis nigricans","Hypertension, dyslipidemia","NAFLD","Obstructive sleep apnea","SCFE, Blount disease","PCOS","Idiopathic intracranial hypertension","Depression, bullying"]},
+
+{id:"t1dm",name:"Type 1 Diabetes (new diagnosis / non-compliance / DKA)",sys:"Endocrine",src:"Study lobby + Previous OSCE 2012, 2014, 2015, 2018",
+pearl:"Repeated counselling: newly diagnosed DM education, insulin teaching, non-compliant adolescent.",
+ddx:["Type 2 DM / MODY","Stress hyperglycemia","DKA vs gastroenteritis / sepsis / acute abdomen","Diabetes insipidus (polyuria)","Psychogenic polydipsia","UTI"],
+inv:["Random glucose ≥11.1, fasting ≥7, HbA1c ≥6.5%","Ketones (blood BHB / urine)","Blood gas: DKA = pH <7.3 or HCO3 <18 + ketosis","Electrolytes (corrected Na), urea, creatinine, phosphate","Autoantibodies: GAD, IA-2, ZnT8, insulin","Celiac screen, TFT at diagnosis","Annual: lipids, urine ACR, eye exam (from puberty / 5 y duration)"],
+mgmt:["Education: what is DM, insulin types & injection technique, sites rotation, storage","Basal-bolus (glargine/detemir + rapid-acting) or insulin pump; total ~0.7–1 U/kg/day","Glucose monitoring / CGM; target HbA1c <7%","Hypoglycemia: rule of 15 (15 g fast sugar, recheck in 15 min), glucagon","Sick-day rules: never stop basal insulin, check ketones, fluids","Carbohydrate counting, exercise adjustment, school plan","DKA: fluids (10 mL/kg bolus then deficit over 48 h), insulin 0.05–0.1 U/kg/h after 1 h of fluids, K replacement, watch cerebral edema (mannitol / 3% saline)","Non-compliant teen: HEADSS, motivational interviewing, psychology, supervised insulin"],
+comp:["DKA, cerebral edema","Hypoglycemia (seizure, coma)","Retinopathy, nephropathy, neuropathy","Celiac, hypothyroidism","Lipohypertrophy","Growth / puberty delay (Mauriac)","Depression, eating disorders"]},
+
+{id:"di",name:"Diabetes Insipidus (central / nephrogenic / post-TBI)",sys:"Endocrine",src:"Previous OSCE 2012, 2014, 2017",
+pearl:"TBI + DI (ER), nephrogenic DI presenting as FTT, polyuria with hypernatremia & dilute urine.",
+ddx:["Central DI: TBI, surgery, craniopharyngioma, LCH, germinoma, idiopathic","Nephrogenic DI: X-linked AVPR2, lithium, hypercalcemia, hypokalemia, obstructive uropathy","Psychogenic polydipsia (low Na, dilute urine)","Diabetes mellitus (glycosuria)","CKD, cerebral salt wasting, SIADH (opposite picture)"],
+inv:["Urine output >4 mL/kg/h (>2 L/m²/day)","Serum Na ↑, serum osm >300 with urine osm <300 (SG <1.005)","Glucose, Ca, K, creatinine","Water deprivation test (supervised) then desmopressin: urine osm ↑>50% = central; no change = nephrogenic","Copeptin","MRI brain/pituitary (absent posterior bright spot, mass); anterior pituitary function"],
+mgmt:["Free access to water; correct hypernatremia slowly (≤10–12 mmol/L/24 h)","Central: desmopressin (intranasal / oral / SC) – watch hyponatremia","Post-TBI / post-op: triphasic response – DI → SIADH → DI; strict input/output, Na every 4–6 h","Nephrogenic: low-solute diet, thiazide + amiloride, NSAID (indomethacin); stop lithium","Treat underlying cause"],
+comp:["Hypernatremic dehydration → seizures, intracranial bleed","Over-rapid correction → cerebral edema","Desmopressin overdose → hyponatremia","FTT, developmental delay (nephrogenic)","Hydronephrosis, bladder dysfunction"]},
+
+{id:"siadh",name:"SIADH",sys:"Endocrine",src:"Previous OSCE 2014, 2015",
+pearl:"Sickler with pneumonia + hyponatremia: counsel about SIADH; euvolemic hyponatremia with concentrated urine.",
+ddx:["Cerebral salt wasting (hypovolemic, high urine output)","Hypovolemic hyponatremia (GI losses)","Hypothyroidism, adrenal insufficiency","Psychogenic polydipsia","Heart failure, nephrotic, cirrhosis (hypervolemic)","Pseudohyponatremia (hyperglycemia, lipids)"],
+inv:["Serum Na <135, serum osm <275","Urine osm >100 (usually >serum), urine Na >30–40","Euvolemia clinically","Normal TSH, cortisol, renal function","Look for cause: CXR (pneumonia), CNS imaging, drugs"],
+mgmt:["Fluid restriction (2/3 maintenance); use isotonic fluids, never hypotonic","Severe symptomatic (seizure, coma): 3% saline 2 mL/kg over 10–15 min, repeat up to ×3","Correct chronic hyponatremia ≤8–10 mmol/L/24 h","Treat cause (pneumonia, meningitis, drug)","Refractory: oral urea, tolvaptan (specialist)"],
+comp:["Hyponatremic seizures, cerebral edema, death","Osmotic demyelination with rapid correction"]},
+
+{id:"cah",name:"Ambiguous Genitalia / Congenital Adrenal Hyperplasia",sys:"Endocrine",src:"Study lobby + Previous OSCE 2013, 2014, 2015",
+pearl:"Counselling parents of neonate with ambiguous genitalia: don't assign sex before evaluation; 21-hydroxylase deficiency is commonest (46,XX virilized); salt-wasting crisis day 7–14.",
+ddx:["46,XX DSD: CAH (21-OH, 11β-OH), maternal androgens, aromatase deficiency","46,XY DSD: androgen insensitivity, 5α-reductase deficiency, testosterone synthesis defects, gonadal dysgenesis","Sex chromosome DSD: 45,X/46,XY mosaic","Hypospadias + undescended testis"],
+inv:["Karyotype / SRY FISH urgently","17-OH progesterone (after 24–48 h)","Electrolytes daily (Na ↓, K ↑), glucose","Renin, cortisol, ACTH, testosterone, DHT, AMH, LH/FSH","Pelvic US: uterus, gonads","Genitogram, genetic panel"],
+mgmt:["Multidisciplinary DSD team; delay sex assignment & registration until evaluation; avoid guessing","Salt-wasting crisis: NS 20 mL/kg, dextrose, IV hydrocortisone 50–100 mg/m², treat hyperkalemia","Maintenance: hydrocortisone 10–15 mg/m²/day + fludrocortisone + NaCl in infancy","Stress dosing (×2–3) in illness; emergency card & IM hydrocortisone at home","Surgery timing discussed with family","Genetic counselling (AR); prenatal diagnosis"],
+comp:["Adrenal (salt-wasting) crisis, shock, death","Hypoglycemia","Precocious puberty, advanced bone age, short adult height (untreated)","Iatrogenic Cushing (over-treatment)","Infertility, psychosocial issues, gender dysphoria","Testicular adrenal rest tumours"]},
+
+{id:"hypothyroid",name:"Hypothyroidism (Congenital / Acquired)",sys:"Endocrine",src:"Previous OSCE (data interpretation – TSH)",
+pearl:"TSH interpretation station: high TSH + low FT4 = primary; low TSH + low FT4 = central.",
+ddx:["Congenital: dysgenesis (ectopic / agenesis), dyshormonogenesis","Hashimoto thyroiditis (acquired)","Central hypothyroidism (pituitary)","Sick euthyroid","Transient (maternal antibodies, iodine exposure)","Subclinical hypothyroidism"],
+inv:["TSH & free T4 (newborn screening day 2–5)","Thyroid US / technetium scan (congenital)","Anti-TPO, anti-Tg (acquired)","Bone age (delayed)","Other pituitary hormones if central","Lipids, CBC"],
+mgmt:["Congenital: levothyroxine 10–15 mcg/kg/day ASAP (within 2 weeks of life)","Crush tablet, don't mix with soy / iron / calcium","Monitor TSH/FT4 every 1–2 months in infancy","Acquired: levothyroxine titrated to normal TSH","Re-evaluate at 3 y if transient suspected"],
+comp:["Intellectual disability if untreated congenital","Short stature, delayed puberty (or precocious in severe)","Prolonged jaundice, constipation, umbilical hernia","SCFE","Over-treatment: craniosynostosis, hyperthyroid symptoms"]}
+]);
